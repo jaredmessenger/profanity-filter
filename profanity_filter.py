@@ -2,10 +2,10 @@
 Uses a line separated file listing bad words as it's source
 to check if a user submitted something inappropriate
 
-f = Filter('Annoyingwhores and fudge packers', clean_word='unicorn')
+f = Filter('slut', clean_word='unicorn')
 word = f.clean()
 print word
->>Annoyingunicorns and unicorns
+>>slut
 """
 import re
 
