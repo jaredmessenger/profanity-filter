@@ -26,8 +26,8 @@ badwordfile = 'bad_words.txt'
 
 class Filter(object):
     """
-    Class is desigend to take a string and clean it up by replacing instances of "bad" words
-    with a more acceptable word.
+    Class is desigend to take a string and clean it up by replacing 
+    instances of "bad" words with a more acceptable word.
     
     """
 
@@ -35,9 +35,6 @@ class Filter(object):
     bad_words = set(line.strip('\n') for line in open(badwordfile))
 
     def __init__(self, original_string, replacement_string='****'):
-        
-        #bad_words_file = open('bad_words.txt', 'r')
-        
         
         #cls.bad_words = ['ass','fuck', 'shit' ] # used for testing
         self.original_string = original_string
@@ -52,8 +49,6 @@ class Filter(object):
 
     def get_original_string(self):
         return self.original_string
-
-   
 
     def get_replacement_string(self):
         return self.replacement_string
