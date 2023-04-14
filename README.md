@@ -1,7 +1,7 @@
 profanity-filter
 ================
 
-Python module that replaces inappropriate words with something more PG rated.    
+Python module that replaces inappropriate words with something more PG rated. Used in project that allows individuals to text message to sign used in Xmas decorations.
 
 Uses a line separated file listing bad words as it's source
 to check if a user submitted something inappropriate.
